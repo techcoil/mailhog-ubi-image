@@ -1,5 +1,7 @@
 ## Docker image for MailHog
 
+[![Docker Repository on Quay](https://quay.io/repository/techcoil/mailhog/status "Docker Repository on Quay")](https://quay.io/repository/techcoil/mailhog)
+
 Docker image build script for [MailHog](https://github.com/mailhog/MailHog), a SMTP testing tool (AKA Mail Catcher).
 
 The image is based on RedHat's UBI Base Image which fit best for deployment on RedHat OpenShift platform (but not limited to that)
