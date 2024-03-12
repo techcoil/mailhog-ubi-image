@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-echo $MH_UI_USERNAME
-echo $MH_UI_PASSWORD
-
 # Create Auth file user/pass provided"
 
 if [ -z "$MH_UI_USERNAME" ] || [ -z "$MH_UI_PASSWORD" ]; then

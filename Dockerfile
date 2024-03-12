@@ -7,7 +7,7 @@ RUN yum install -y git \
     && go install "github.com/mailhog/MailHog@v1.0.1"
 
 
-FROM registry.access.redhat.com/ubi9/ubi-init:9.3.12 as runtime
+FROM registry.access.redhat.com/ubi9/ubi-init:9.3-12 as runtime
 USER root
 
 ARG MH_UI_USERNAME
